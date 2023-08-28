@@ -40,4 +40,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: dni256/hello:$tag
+          tags: "dni256/hello:$tag"
