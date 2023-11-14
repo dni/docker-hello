@@ -3,7 +3,8 @@ name: Publish Docker image on Docker Hub and Github
 on:
   push:
     tags:
-      - "[v][0-9]+.[0-9]+.[0-9]+"
+      - "v[0-9]+.[0-9]+.[0-9]+"
+      - "[0-9]+.[0-9]+.[0-9]+"
 
 # env:
 #   REGISTRY: ghcr.io
